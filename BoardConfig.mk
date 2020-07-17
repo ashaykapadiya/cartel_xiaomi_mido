@@ -200,8 +200,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.recovery.qcom
 DISABLE_RILD_OEM_HOOK := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
-# Security patch level
-VENDOR_SECURITY_PATCH := 2020-07-01
+
+# Security patch level SDClangVENDOR_SECURITY_PATCH := 2020-07-01
+TARGET_USE_SDCLANG := true
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
