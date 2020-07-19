@@ -14,9 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_mido.mk
+    $(LOCAL_DIR)/cygnus_mido.mk
 
-COMMON_LUNCH_CHOICES := \
-    conquer_mido-user \
-    conquer_mido-userdebug \
-    conquer_mido-eng
