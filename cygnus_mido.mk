@@ -37,3 +37,7 @@ TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Official!
+CYGNUS_BUILD_TYPE := OFFICIAL
+
