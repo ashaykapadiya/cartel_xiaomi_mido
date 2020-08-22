@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 $(call inherit-product device/qcom/common/common.mk)
 
 # Inherit some common ConquerOS stuff.
-$(call inherit-product, vendor/cartel/configs/common.mk)
+$(call inherit-product, vendor/cartel/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
