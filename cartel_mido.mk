@@ -41,3 +41,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Official!
 CARTEL_BUILD_TYPE := OFFICIAL
 
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
