@@ -25,11 +25,11 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 $(call inherit-product device/qcom/common/common.mk)
 
 # Inherit some common ConquerOS stuff.
-$(call inherit-product, vendor/cygnus/configs/common.mk)
+$(call inherit-product, vendor/cartel/configs/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := cygnus_mido
+PRODUCT_NAME := cartel_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
@@ -39,5 +39,5 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Official!
-CYGNUS_BUILD_TYPE := OFFICIAL
+CARTEL_BUILD_TYPE := OFFICIAL
 
